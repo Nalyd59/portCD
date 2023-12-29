@@ -1,0 +1,53 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.pagination {
+  justify-content: center;
+}
+
+.navPagination {
+  margin-top: 20px;
+}
+
+.reduced-image{
+  width: 200px;
+}
+
+@media (max-width: 767px) {
+  .container {
+      padding: 0 10px;
+  }
+
+  .card {
+      margin-bottom: 15px;
+  }
+
+  .form-control {
+      margin-bottom: 10px;
+  }
+
+  .pagination {
+      font-size: 14px;
+  }
+}
